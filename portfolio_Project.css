@@ -1,0 +1,177 @@
+/* Entire Webpage */
+
+body {
+  background-color: black;
+  color: white;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+/* Navigation Bar */
+
+.navigation {
+  position: fixed;
+  top: 0;
+  border-bottom: 1px solid white;
+  width: 100%;
+  z-index: 1000;
+}
+
+.navbar {
+  background-color: black;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  height: 10%;
+}
+
+.navbar a {
+  color: #a9a9a9;
+  font-family: sans-serif;
+  text-decoration: none;
+}
+
+#nav-list {
+  list-style-type: none;
+  display: flex;
+}
+
+#nav-list li {
+  margin-right: 20px;
+}
+
+/* Home Page */
+
+.home-section {
+  background-image: url("./images/city-5848267_1920.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  height: 100vh;
+}
+
+.intro1 {
+  font-size: 36px;
+  font-family: "Cyberpunk Is Not Dead";
+  color: white;
+  padding-top: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.intro2 {
+  font-size: 20px;
+  font-family: "Cyberpunk Is Not Dead";
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-style: italic;
+  color: #f10e0e;
+}
+
+.intro2a {
+  margin-bottom: 0;
+  margin-top: 40px;
+  margin-right: 20px;
+}
+
+.intro3 {
+  font-size: 20px;
+  margin-right: 20px;
+  padding-top: 210px;
+  font-family: "Cyberpunk Is Not Dead";
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+/* About Me Page */
+
+.about-section {
+  height: 100vh;
+  overflow: auto;
+}
+
+.biography {
+  color: #a9a9a9;
+  font-family: "Cyberpunk Is Not Dead";
+  font-size: 36px;
+  color: white;
+  padding-top: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.biography > h1 {
+  font-size: 50px;
+  display: flex;
+  
+}
+
+.paragraph-container {
+  font-size: 26px;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.paragraph-container>p {
+  max-width: 25%;
+  margin-top: 0;
+  margin-left: 50px;
+}
+
+.paragraph-container>img{
+  height: 500px;
+}
+
+/* My Projects Page */
+
+.projects-section {
+  background-image: url("./images/skyscrapers-6990425_1920.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  height: 100vh;
+}
+
+.projects-intro{
+  color: #a9a9a9;
+  font-family: "Cyberpunk Is Not Dead";
+  font-size: 30px;
+  color: white;
+  padding-top: 40px;
+  display: flex;
+  justify-content: center;
+
+}
+
+/* Contact Me Page */
+
+.contact-section {
+  background-color: #58111a;
+  color: white;
+  font-size: 2rem;
+  height: 100vh;
+  width: 100%;
+  border-bottom: 2px solid black;
+}
+
+#contact-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: 100px;
+  text-decoration: underline;
+}
+
